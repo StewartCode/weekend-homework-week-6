@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<div class="doc">
+
+  <html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>My Inputer</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app2.js"></script>
+
+  </head>
+
+  <body id="background">
+    <legend id="enterYourDetails">WELCOME TO MERICA, PLEASE ENTER YOUR DETAILS TO GO THROUGH OUR RIGOROUS BACKGROUND CHECK</legend>
+    <form id="whole-form">
+      <div id="form-wrapper">
+
+        <div class="form-item">
+          <label for="name" class="primary">Name</label>
+          <input type="text" id="name" placeholder="Name" autofocus="true" autocomplete="off" required />
+        </div>
+        <div class="form-item">
+          <label for="age" class="secondary">Age</label>
+          <input type="number" name="age" placeholder="Age" autocomplete="off" id="age" required />
+
+        </div>
+        <div class="form-item1">
+          <label for="female" class="primary">Female </label>
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="male" class="primary">Male </label>
+          <input type="radio" name="gender" id="male" value="male" />
+
+        </div>
+
+        <div class="form-item">
+          <label for="gun" class="primary">Select Gun</label>
+          <select class="guns" id="guns">
+            <option value="" disable selected></option>
+            <option value="ak5c">AK5C</option>
+            <option value="ak12">AK12</option>
+            <option value="mk18">MK18</option>
+          </select>
+        </div>
+      </div>
+      <div class="two-button-wrapper">
+      <input type="submit" id="pushWhenComplete" value="Push">
+    </form>
+    <div id="div1"></div>
+    <div class="deleteAllButton">
+
+      <button id="delete-all" button onclick="loadContent(1)">Delete All</button>
+
+     </div>
+    </div>
+    <h1 id="data"></h1>
+    <div id="data-point"></div>
+    <audio id="myAudio">
+      <source src="1.1mp3" type="audio/mpeg">
+      <button onclick="playAudio()" type="button">Play Audio</button>
+      <h1 id="space">" "</h1>
+    </audio>
+  </body>
+
+  </html>
+
+</div>

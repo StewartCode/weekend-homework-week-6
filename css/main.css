@@ -1,0 +1,126 @@
+.two-button-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-self: auto;
+}
+
+
+#whole-form {
+  size: 1000px;
+}
+
+#pushWhenComplete {
+
+background: #0066A2;
+color: white;
+border-style: outset;
+border-color: #0066A2;
+height: 50px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+margin-left: 150px;
+margin-bottom: 200px;
+}
+
+.doc {
+  margin: auto;
+}
+
+#background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body {
+  background-image: url("1.2.png");
+  background-size:100%;
+  font-size: 25px;
+  font-family: helvetica;
+  background-color: black;
+  background-clip: border-box;
+  border: 100px;
+}
+
+#enterYourDetails {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-right: 400px;
+}
+
+#form-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-self: auto;
+  margin-left: 150px;
+}
+
+#delete-all {
+  background: #0066A2;
+  color: white;
+  border-style: outset;
+  border-color: #0066A2;
+  height: 50px;
+  width: 100px;
+  font: bold 15px arial, sans-serif;
+  text-shadow:none;
+  margin-left: 150px;
+  margin-bottom: 200px;
+}
+
+.form-item {
+  margin-right: 1.8rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.form-item1 {
+  margin-top: 50px;
+  padding: 50px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+
+label.primary {
+  display: table;
+  margin: 25px 0;
+}
+
+label.secondary {
+  display: table;
+  margin: 25px 0;
+}
+
+button, input[type="submit"] {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+#data-point {
+  margin-left: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: -150px;
+  /* this removes list dot */
+}
+
+#data {
+  margin-left: 150px;
+}
+
+.chickens {
+  font-size: 14px;
+  margin: 10px;
+  padding: 10px;
+  border: 50px solid red;
+  border-radius: 100%;
+  background: grey;
+}
